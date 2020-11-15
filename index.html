@@ -1,0 +1,115 @@
+ <!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Практическое занятие 2.1</title>
+    <link rel="stylesheet" type="text/css" href="css/doc.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/fonts.css">
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/script.js"></script>
+  </head>
+  <body>
+    <header class="header fixed-container flex-container">
+      <menu class="header__menu">
+        <li class="header__menu_item icon-check"><a href="#">Пункт меню 1</a></li>
+        <li class="header__menu_item icon-check"><a href="#">Пункт меню 2</a></li>
+        <li class="header__menu_item icon-check"><a href="#">Пункт меню 3</a></li>
+      </menu>
+    </header>
+
+    <main class="main fixed-container flex-container">
+      <h1 class="main__header">Самый главный заголовок</h1>
+
+      <section class="news section-style">
+        <h2 class="heading">Заголовок секции/статьи/блока</h2>
+
+        <div class="news__container">
+          <p class="news__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+
+          <img class="news__img" src="http://pngimg.com/uploads/mug_coffee/mug_coffee_PNG16886.png" alt="Чашка кофе">
+        </div>
+      </section>
+
+      <section class="table section-style">
+        <h2 class="heading">Заголовок секции/статьи/блока</h2>
+
+        <table class="table__container" border="1">
+          <caption class="tabel__heading">Заголовок таблицы</caption>
+
+          <tr>
+            <th>Заголовок</th>
+            <th>Параметр</th>
+            <th>Параметр</th>
+          </tr>
+
+          <tr>
+            <th>Заголовок</th>
+            <td>Значение</td>
+            <td>Значение</td>
+          </tr>
+
+          <tr>
+            <th>Заголовок</th>
+            <td>Значение</td>
+            <td>Значение</td>
+          </tr>
+        </table>
+      </section>
+
+      <section class="formblock section-style">
+        <h2 class="heading">Заголовок секции/статьи/блока</h2>
+
+        <div class="formblock__container">
+          <form class="formblock__form" action="" method="post">
+            <label class="formblock__label">
+              Напишите текст
+              <input class="formblock__input" type="text" name="name" placeholder="Сюда">
+            </label>
+          </form>
+
+          <div class="formblock__links_wrap">
+            <a class="formblock__link" href="#">Ссылка на куда-нибудь</a>
+
+            <button class="formblock__btn" type="button" name="button">Кнопка для чего-нибудь</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="jq-block section-style">
+        <div class="jq-block__event">
+          <button class="jq-block__event_btnS jq_btn" type="button" name="button">Показать текст</button>
+
+          <button class="jq-block__event_btnH jq_btn" type="button" name="button">Скрыть текст</button>
+
+          <p class="jq-block__event_text">Какой-то непонятный текст</p>
+        </div>
+
+        <div class="jq-block__add">
+          <ul>
+            <li class="jq-block__add_item">Список:</li>
+          </ul>
+
+          <button class="jq-block__add_btn jq_btn" type="button" name="button">Добавить пункт в список</button>
+
+          <button class="jq-block__add_btn-remove jq_btn" type="button" name="button">Удалить пункт из списка</button>
+        </div>
+
+        <div class="jq-block__animate">
+          <div class="jq-block__animate_cube"></div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer flex-container">
+      <nav class="footer__nav fixed-container">
+        <ul>
+          <li class="footer__list_item icon-check"><a href="#">Пункт меню 1</a></li>
+          <li class="footer__list_item icon-check"><a href="#">Пункт меню 2</a></li>
+          <li class="footer__list_item icon-check"><a href="#">Пункт меню 3</a></li>
+        </ul>
+      </nav>
+    </footer>
+  </body>
+</html>
